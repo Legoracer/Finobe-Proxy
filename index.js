@@ -7,7 +7,7 @@ proxy.on('proxyReq', function(proxyReq, req, res, options) {
 	console.log(
 		"ssss: " + proxyReq.getHeader('X-HTTP-Method-Override')
 	)
-	proxyReq.setHeader('X-Special-Proxy-Header', 'foobar');
+	proxyReq.setHeader('X-HTTP-Method-Override', 'PUT');
 });
 
 var server = http.createServer(function(req, res) {
