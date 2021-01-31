@@ -18,4 +18,4 @@ var server = http.createServer(function(req, res) {
 });
 
 console.log("listening on port 5050")
-server.listen(process.env.PORT);
+server.listen(process.env.PORT || 5050);
