@@ -1,0 +1,23 @@
+{
+  "name": "finobe-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legoracer/Finobe-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legoracer/Finobe-Proxy/issues"
+  },
+  "homepage": "https://github.com/Legoracer/Finobe-Proxy#readme"
+}
