@@ -11,6 +11,7 @@ proxy.on('proxyReq', function(proxyReq, req, res, options) {
 });
 
 var server = http.createServer(function(req, res) {
+	console.log("??????????????????????????")
 	proxy.web(req, res, {
 		changeOrigin: true,
 		target: 'https://squids-awesome-project.firebaseio.com/'
