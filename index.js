@@ -4,9 +4,7 @@ var httpProxy = require('http-proxy');
 var proxy = httpProxy.createProxyServer({});
 
 proxy.on('proxyReq', function(proxyReq, req, res, options) {
-	console.log(
-		"ssss: " + proxyReq.getHeader('X-HTTP-Method-Override')
-	)
+	console.log(proxyReq.method)
 	proxyReq.setHeader('X-HTTP-Method-Override', 'PUT');
 });
 
